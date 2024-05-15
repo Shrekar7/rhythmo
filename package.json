@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-slider": "^1.1.2",
     "@supabase/auth-helpers-nextjs": "^0.9.0",
@@ -30,6 +31,7 @@
     "zustand": "^4.5.2"
   },
   "devDependencies": {
+    "@babel/plugin-transform-typescript": "7.19.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -41,5 +43,13 @@
     "supabase": "^1.145.4",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  }
+    
+  },
+
+"resolutions": {   
+   "@babel/plugin-transform-typescript": "7.19.3"
 }
+}
+
+
+
